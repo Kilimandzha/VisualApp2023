@@ -1,5 +1,5 @@
 dash==2.9.2
 pyyaml
 gunicorn
-pandas
-plotly
+pandas==2.0.0
+plotly==5.14.1

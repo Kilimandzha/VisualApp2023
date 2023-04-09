@@ -4,9 +4,4 @@ services:
   app:
     build: .
     ports:
-      - "8080:80"
-    secrets:
-      - key
-secrets:
-  key:
-    file: secrets.yaml
+      - "8080:8080"
